@@ -1,0 +1,15 @@
+admins-MacBook-Pro-3:001_welcome_project admin$ pwd
+/Users/admin/projects/Python/Flask/Projects/001_welcome_project
+
+admins-MacBook-Pro-3:001_welcome_project admin$ ls
+1_server.py	2_debug_true.py	FlaskEnv
+
+admins-MacBook-Pro-3:001_welcome_project admin$ source ./FlaskEnv/bin/activate
+
+(FlaskEnv) admins-MacBook-Pro-3:001_welcome_project admin$ cd FlaskEnv/
+
+(FlaskEnv) admins-MacBook-Pro-3:FlaskEnv admin$ ls
+bin			include			lib			pip-selfcheck.json
+
+(FlaskEnv) admins-MacBook-Pro-3:001_welcome_project admin$ python 1_server.py
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

@@ -1,0 +1,15 @@
+admins-MacBook-Pro-3:Projects admin$ pwd
+/Users/admin/projects/Python/Flask/Projects
+
+admins-MacBook-Pro-3:Projects admin$ git init
+Initialized empty Git repository in /Users/admin/projects/Python/Flask/Projects/.git/
+
+admins-MacBook-Pro-3:Projects admin$ git remote  add origin https://github.com/hygull/flask.git
+
+admins-MacBook-Pro-3:Projects admin$ git remote -v
+origin	https://github.com/hygull/flask.git (fetch)
+origin	https://github.com/hygull/flask.git (push)
+
+admins-MacBook-Pro-3:Projects admin$ ls
+001_welcome_project	docs
+

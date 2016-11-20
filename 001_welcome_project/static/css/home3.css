@@ -1,0 +1,13 @@
+#root .row #r1c2 h1{
+  color:red;
+}
+#root .row #r1c1 .list-group a:hover{
+	background-color:pink;
+	font-weight: bold;
+	color:green;
+}
+#root .row #r1c1 .list-group a{
+	background-color:black;
+	font-weight: bold;
+	color:white;
+}
